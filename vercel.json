@@ -1,3 +1,12 @@
 {
-  "cleanUrls": true
+  "version": 2,
+  "buildCommand": "npm run build",
+  "outputDirectory": ".",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/index.html"
+    }
+  ]
 }
